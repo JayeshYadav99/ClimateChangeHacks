@@ -389,6 +389,7 @@ export default function EventForm() {
                 <br />
                 <br />
                 <label>My car is an electric vehicle</label>
+                {/* Have a Bug Here- Start from here */}
                 <label>
                   <input
                     type="checkbox"
@@ -398,6 +399,7 @@ export default function EventForm() {
                   />
                   Yes,My Car is Electric
                 </label>
+  {/* Buggy Code End Here */}
                 <div className="main-div">
                   <label htmlFor="AnnualMileage">My annual mileage is...</label>
                   <select
